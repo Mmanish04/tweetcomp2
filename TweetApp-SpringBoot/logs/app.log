@@ -1,0 +1,9 @@
+2022-09-10 03:31:24,463 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 17.0.4 on DESKTOP-LHUFIFC with PID 5060 (C:\Users\kumar\OneDrive\Desktop\TweetApp-master\TweetApp-SpringBoot\target\classes started by kumar in C:\Users\kumar\OneDrive\Desktop\TweetApp-master\TweetApp-SpringBoot)
+2022-09-10 03:31:24,468 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2022-09-10 03:31:28,104 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 4.037 seconds (JVM running for 6.763)
+2022-09-10 03:35:19,082 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 17.0.4 on DESKTOP-LHUFIFC with PID 3620 (C:\Users\kumar\OneDrive\Desktop\TweetApp-master\TweetApp-SpringBoot\target\classes started by kumar in C:\Users\kumar\OneDrive\Desktop\TweetApp-master\TweetApp-SpringBoot)
+2022-09-10 03:35:19,085 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2022-09-10 03:35:22,334 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 3.703 seconds (JVM running for 4.534)
+2022-09-10 04:09:36,299 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 17.0.4 on DESKTOP-LHUFIFC with PID 11604 (C:\Users\kumar\OneDrive\Desktop\TweetApp-master\TweetApp-SpringBoot\target\classes started by kumar in C:\Users\kumar\OneDrive\Desktop\TweetApp-master\TweetApp-SpringBoot)
+2022-09-10 04:09:36,301 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2022-09-10 04:09:39,576 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 3.683 seconds (JVM running for 4.504)

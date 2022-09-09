@@ -1,0 +1,59 @@
+2022-09-04 02:03:23,097 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 17.0.4 on DESKTOP-LHUFIFC with PID 13736 (C:\Users\kumar\OneDrive\Desktop\TweetApp-master\TweetApp-SpringBoot\target\classes started by kumar in C:\Users\kumar\OneDrive\Desktop\TweetApp-master\TweetApp-SpringBoot)
+2022-09-04 02:03:23,105 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2022-09-04 02:03:26,924 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 4.266 seconds (JVM running for 5.143)
+2022-09-04 02:30:03,404 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'reader', line 43, column 1:
+    logging:
+    ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 52, column 2:
+     app:
+     ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:570)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:235)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:162)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:95)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getData(BaseConstructor.java:134)
+	at org.springframework.boot.env.OriginTrackedYamlLoader$OriginTrackingConstructor.getData(OriginTrackedYamlLoader.java:99)
+	at org.yaml.snakeyaml.Yaml$1.next(Yaml.java:512)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:200)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:164)
+	at org.springframework.boot.env.OriginTrackedYamlLoader.load(OriginTrackedYamlLoader.java:84)
+	at org.springframework.boot.env.YamlPropertySourceLoader.load(YamlPropertySourceLoader.java:50)
+	at org.springframework.boot.context.config.StandardConfigDataLoader.load(StandardConfigDataLoader.java:48)
+	at org.springframework.boot.context.config.StandardConfigDataLoader.load(StandardConfigDataLoader.java:34)
+	at org.springframework.boot.context.config.ConfigDataLoaders.load(ConfigDataLoaders.java:102)
+	at org.springframework.boot.context.config.ConfigDataImporter.load(ConfigDataImporter.java:118)
+	at org.springframework.boot.context.config.ConfigDataImporter.resolveAndLoad(ConfigDataImporter.java:82)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentContributors.withProcessedImports(ConfigDataEnvironmentContributors.java:119)
+	at org.springframework.boot.context.config.ConfigDataEnvironment.processInitial(ConfigDataEnvironment.java:237)
+	at org.springframework.boot.context.config.ConfigDataEnvironment.processAndApply(ConfigDataEnvironment.java:225)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:97)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:89)
+	at org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEnvironmentPreparedEvent(EnvironmentPostProcessorApplicationListener.java:100)
+	at org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEvent(EnvironmentPostProcessorApplicationListener.java:86)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:320)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at com.tweetapp.TweetAppApplication.main(TweetAppApplication.java:15)
+2022-09-04 02:30:59,443 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 17.0.4 on DESKTOP-LHUFIFC with PID 4092 (C:\Users\kumar\OneDrive\Desktop\TweetApp-master\TweetApp-SpringBoot\target\classes started by kumar in C:\Users\kumar\OneDrive\Desktop\TweetApp-master\TweetApp-SpringBoot)
+2022-09-04 02:30:59,445 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2022-09-04 02:31:02,708 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 3.633 seconds (JVM running for 4.481)
+2022-09-04 02:38:23,734 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 17.0.4 on DESKTOP-LHUFIFC with PID 10700 (C:\Users\kumar\OneDrive\Desktop\TweetApp-master\TweetApp-SpringBoot\target\classes started by kumar in C:\Users\kumar\OneDrive\Desktop\TweetApp-master\TweetApp-SpringBoot)
+2022-09-04 02:38:23,736 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2022-09-04 02:38:26,787 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 3.433 seconds (JVM running for 4.274)
